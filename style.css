@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+}
+
+#Fora_Temporizador{
+    height: 800px;
+    width: auto;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+#Temporizador{
+    height: 75px;
+    width: 250px;
+    border: 1px solid black;
+    margin: 5px;
+    display: flex;
+}
+
+#Temporizador div{
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 40px;
+}
+
+#Temporizador h1{
+    line-height: 65px;
+    font-size: 40px;
+}
+
+#Segundos,#Minutos,#Horas{
+    text-align: center;
+}
+
+#Opcoes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Opcoes button{
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+#Opcoes button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+h1{
+    font-size: 30px;
+}
+
+#Tempos{
+    position: absolute;
+    height: 500px;
+    width: 250px;
+    border: 1px solid black;
+    top: 20%;
+    left: 60%;
+    text-align: center;
+}
